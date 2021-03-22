@@ -1,6 +1,6 @@
 import AboutUS from "../Components/About/Aboutus";
 import AboutBreadcrubms from "../Components/About/Breadcrubms";
-import AboutUsVideo from "../Components/About/AboutUsVideo";
+import AboutUsVideo from "../Components/About/Aboutusvideo";
 import AboutUsTeam from "../Components/About/Team";
 import AboutUsTestimonial from "../Components/About/Testimonial";
 import AboutUsBlog from "../Components/About/Blog";
