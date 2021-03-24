@@ -1,4 +1,4 @@
-import AboutUS from '../Components/About/AboutUS'
+import AboutUS from '../Components/About/Aboutus'
 import AboutBreadcrubms from '../Components/About/Breadcrubms'
 
 
