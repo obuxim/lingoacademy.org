@@ -1,6 +1,8 @@
-import Head from 'next/head'
-import Header from '../Components/Header'
-import Footer from '../Components/Footer'
+import Head from 'next/head';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const Layout = ({children}) => {
     return (

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 const Header = () => {
     return (
         <>
@@ -39,8 +40,8 @@ const Header = () => {
                   <div className="logo-cat-wrap">
                     <div className="logo-part">
                       <a href="index.html">
-                        <img className="normal-logo" src="assets/images/logo-yellow.png" alt="" />
-                        <img className="sticky-logo" src="assets/images/logo-yellow2.png" alt="" />
+                        <img className="normal-logo" src="assets/images/lingoacademy.png" alt="" />
+                        <img className="sticky-logo" src="assets/images/lingoacademy.png" alt="" />
                       </a>
                     </div>
                   </div>
@@ -55,136 +56,31 @@ const Header = () => {
                       </div>
                       <nav className="rs-menu">
                         <ul className="nav-menu">
-                          <li className="rs-mega-menu mega-rs menu-item-has-children current-menu-item"> <a href="index.html">Home</a>
-                            <ul className="mega-menu"> 
-                              <li className="mega-menu-container">
-                                <div className="mega-menu-innner">
-                                  <div className="single-megamenu">
-                                    <ul className="sub-menu">
-                                      <li><a href="index.html">Main Demo</a> </li>
-                                      <li><a href="index2.html">Online Course</a> </li>
-                                      <li><a href="index3.html">University 01</a> </li>
-                                      <li><a href="index4.html">E-Learning</a> </li>
-                                      <li><a href="index5.html">Distance Learning</a> </li>
-                                    </ul>
-                                  </div>
-                                  <div className="single-megamenu">
-                                    <ul className="sub-menu last-sub-menu">
-                                      <li><a href="index6.html">Personal Demo</a> </li>
-                                      <li><a href="index7.html">Online Training</a> </li>
-                                      <li><a href="index8.html">Online Learning</a> </li>
-                                      <li><a href="index9.html">Kitchen Coach</a> </li>
-                                      <li className="active"><a href="index10.html">University 02</a> </li>
-                                    </ul>
-                                  </div>  
-                                  <div className="single-megamenu">
-                                    <ul className="sub-menu last-sub-menu">
-                                      <li><a href="index11.html">Kindergarten 01</a> </li>
-                                      <li><a href="index12.html">Freelancing Course</a> </li>
-                                      <li><a href="index13.html">Gym Coach</a> </li>
-                                      <li><a href="index14.html">Courses Archive</a> </li>
-                                      <li><a href="#">Coming Soon</a> </li>
-                                    </ul>
-                                  </div> 
-                                </div>
-                              </li>
-                            </ul>
+                          <li className="rs-mega-menu mega-rs menu-item-has-children current-menu-item"><Link href="/"><a>Home</a></Link>
                           </li>
                           <li className="menu-item-has-children">
-                            <a href="#">About</a>
-                            <ul className="sub-menu">
-                              <li><a href="about.html">About One</a> </li>
-                              <li><a href="about2.html">About Two</a> </li>
-                            </ul>
+                            <Link href="/allcourse"><a>All Courses</a>
+                            </Link>
                           </li>
                           <li className="menu-item-has-children">
-                            <a href="#">Courses</a>
-                            <ul className="sub-menu">
-                              <li><a href="course.html">Courses One</a> </li>
-                              <li><a href="course2.html">Courses Two</a> </li>
-                              <li><a href="course3.html">Courses Three</a> </li>
-                              <li><a href="course4.html">Courses Four</a> 
-                              </li>
-                              <li><a href="course5.html">Courses Five</a> </li>
-                              <li><a href="course-single.html">Courses Single</a> </li>
-                            </ul>
+                            <Link href="/">
+                              <a>Special Deal</a>
+                            </Link>
                           </li>
                           <li className="menu-item-has-children">
-                            <a href="#">Pages</a>
-                            <ul className="sub-menu">
-                              <li className="menu-item-has-children right">
-                                <a href="#">Team</a>
-                                <ul className="sub-menu right">
-                                  <li><a href="team.html">Team One</a></li>
-                                  <li><a href="team2.html">Team Two</a></li>
-                                  <li><a href="team-single.html">Team Single</a></li>
-                                </ul>
-                              </li>
-                              <li className="menu-item-has-children">
-                                <a href="#">Event</a>
-                                <ul className="sub-menu right">
-                                  <li><a href="events-style1.html">Event One</a></li>
-                                  <li><a href="events-style2.html">Event Two</a></li>
-                                  <li><a href="events-style3.html">Event Three</a></li>
-                                </ul>
-                              </li>
-                              <li className="menu-item-has-children">
-                                <a href="#">Gallery</a>
-                                <ul className="sub-menu right">
-                                  <li><a href="gallery-style1.html">Gallery One</a></li>
-                                  <li><a href="gallery-style2.html">Gallery Two</a></li>
-                                  <li><a href="gallery-style3.html">Gallery Three</a></li>
-                                </ul>
-                              </li>
-                              <li className="menu-item-has-children">
-                                <a href="#">Shop</a>
-                                <ul className="sub-menu right">
-                                  <li><a href="shop.html">Shop</a></li>
-                                  <li><a href="shop-single.html">Shop Single</a></li>
-                                  <li><a href="cart.html">Cart</a></li>
-                                  <li><a href="checkout.html">Checkout</a></li>
-                                </ul>
-                              </li>
-                              <li className="menu-item-has-children">
-                                <a href="#">Others</a>
-                                <ul className="sub-menu right">
-                                  <li><a href="faq.html">FAQ</a></li>
-                                  <li><a href="error.html">404 Page</a></li>
-                                  <li><a href="login.html">Login</a></li>
-                                  <li><a href="register.html">Register</a></li>
-                                </ul>
-                              </li>
-                            </ul>
+                            <Link href="/blog">
+                              <a>Blog</a>
+                            </Link>
                           </li>
                           <li className="menu-item-has-children">
-                            <a href="#">Blog</a>
-                            <ul className="sub-menu">
-                              <li><a href="blog.html">Blog</a></li>
-                              <li className="menu-item-has-children">
-                                <a href="#">Blog Sidebar</a>
-                                <ul className="sub-menu right">
-                                  <li><a href="blog-left.html">Blog Left Sidebar</a></li>
-                                  <li><a href="blog-right.html">Blog Right Sidebar</a></li>
-                                </ul>
-                              </li>
-                              <li className="menu-item-has-children">
-                                <a href="#">Single Post</a>
-                                <ul className="sub-menu right">
-                                  <li><a href="blog-post-left.html">Post Left Sidebar</a></li>
-                                  <li><a href="blog-post-right.html">Post Right Sidebar</a></li>
-                                  <li><a href="blog-single.html">Full Width Post</a></li>
-                                </ul>
-                              </li>
-                            </ul>
+                             <Link href="/resources">
+                              <a>Free Resources</a>
+                              </Link>
                           </li>
                           <li className="menu-item-has-children">
-                            <a href="#">Contact</a>
-                            <ul className="sub-menu">
-                              <li><a href="contact.html">Contact One</a> </li>
-                              <li><a href="contact2.html">Contact Two</a> </li>
-                              <li><a href="contact3.html">Contact Three</a> </li>
-                              <li><a href="contact4.html">Contact Four</a> </li>
-                            </ul>
+                            <Link href="/">
+                            <a>Login</a>
+                            </Link>
                           </li>
                         </ul> 
                       </nav>                                        
@@ -241,11 +137,7 @@ const Header = () => {
                         </div> 
                       </li>
                     </ul>
-                    <a id="nav-expander" className="nav-expander style6">
-                      <span className="dot1" />
-                      <span className="dot2" />
-                      <span className="dot3" />
-                    </a>
+    
                   </div>
                 </div>
               </div>

@@ -6,7 +6,6 @@ const HomeBlog = () => {
           <div className="row">
             <div className="col-lg-7 col-md-12 pr-75 md-pr-15 md-mb-50">
               <div className="sec-title3 mb-50 md-mb-30">
-                <div className="sub-title yellow-color">News</div>
                 <h2 className="title black-color">Blogs</h2>
               </div>
               <div className="row align-items-center no-gutter white-bg blog-item mb-30 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="2000ms">
@@ -60,7 +59,6 @@ const HomeBlog = () => {
             </div>
             <div className="col-lg-5 lg-pl-0">
               <div className="sec-title3 mb-50 md-mb-30">
-                <div className="sub-title yellow-color">Events</div>
                 <h2 className="title black-color">Free Resources</h2>
               </div>
               <div className="events-short-top mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
@@ -69,11 +67,7 @@ const HomeBlog = () => {
                   <div className="date">20</div>
                 </div>
                 <div className="content-part">
-                  <div className="categorie">
-                    <a href="#">Recipes</a>
-                  </div>
-                  <h3 className="title"><a href="#">Spicy Quince And Cranberry Chutney</a></h3>
-                  <p className="txt">Educavo Events Description Lorem ipsum dolor sit amet, consectetuer...</p>
+                  <h3 className="title"><a href="#">Free Quizzes</a></h3>
                 </div>
               </div>
               <div className="events-short-top mb-30 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="2000ms">
@@ -82,11 +76,7 @@ const HomeBlog = () => {
                   <div className="date">20</div>
                 </div>
                 <div className="content-part">
-                  <div className="categorie">
-                    <a href="#">Recipes</a>
-                  </div>
-                  <h3 className="title"><a href="#">Persimmon, Pomegranate, And Massaged Kale Salad</a></h3>
-                  <p className="txt">Educavo Events Description Lorem ipsum dolor sit amet, consectetuer...</p>
+                  <h3 className="title"><a href="#">Free Tips</a></h3>
                 </div>
               </div> 
               <div className="events-short-top wow fadeInUp" data-wow-delay="500ms" data-wow-duration="2000ms">
@@ -95,11 +85,7 @@ const HomeBlog = () => {
                   <div className="date">20</div>
                 </div>
                 <div className="content-part">
-                  <div className="categorie">
-                    <a href="#">Recipes</a>
-                  </div>
-                  <h3 className="title"><a href="#">Essential Fall Fruits That Aren’t Apples</a></h3>
-                  <p className="txt">Educavo Events Description Lorem ipsum dolor sit amet, consectetuer...</p>
+                  <h3 className="title"><a href="#">Others </a></h3>
                 </div>
               </div> 
             </div>

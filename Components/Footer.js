@@ -1,30 +1,9 @@
+import Link from 'next/link';
+import Newsletter from './Newsletter';
 const Footer = () => {
     return (
         <>
-        <div className="rs-newsletter style1 event2-bg yellow-color mb--90 sm-mb-0 sm-pb-70">
-        <div className="container">
-          <div className="newsletter-wrap">
-            <div className="row y-middle">
-              <div className="col-lg-6 col-md-12 md-mb-30">
-                <div className="content-part">
-                  <div className="sec-title">
-                    <div className="title-icon md-mb-15">
-                      <img src="assets/images/newsletter2.png" alt="images" />
-                    </div>
-                    <h2 className="title mb-0 white-color">Subscribe to Newsletter</h2>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
-                <form className="newsletter-form">
-                  <input type="email" name="email" placeholder="Enter Your Email" required />
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+       <Newsletter />
         <footer id="rs-footer" className="rs-footer home9-style">
           <div className="footer-top">
             <div className="container">
@@ -57,45 +36,27 @@ linguists worldwide.</p>
                   </ul>
                 </div>
                 <div className="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
-                  <h3 className="widget-title">Courses</h3>
+                  <h3 className="widget-title">About</h3>
                   <ul className="site-map">
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Course Two</a></li>
-                    <li><a href="#">Single Course</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Login/Register</a></li>
+                    <li><Link href="/allcourse"><a>All Courses</a></Link></li>
+                    <li><Link href="/about"><a>About Us</a></Link></li>
+                    <li><Link href="/contact"><a>Contact Us</a></Link></li>
+                    <li><Link href="/"><a>Free Quizzes</a></Link></li>
+                    <li><Link href="/resourses"><a>Free Resources</a></Link></li>
+                    <li><Link href="/blog"><a>Blogs</a></Link></li>
                   </ul>
                 </div>
-                <div className="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                  <h3 className="widget-title">Recent Posts</h3>
-                  <div className="recent-post mb-20">
-                    <div className="post-img">
-                      <img src="assets/images/footer/1.jpg" alt="" />
-                    </div>
-                    <div className="post-item">
-                      <div className="post-desc">
-                        <a href="#">University while the lovely valley team work</a>
-                      </div>
-                      <span className="post-date">
-                        <i className="fa fa-calendar" />
-                        September 20, 2020
-                      </span>
-                    </div>
-                  </div> 
-                  <div className="recent-post mb-20 md-pb-0">
-                    <div className="post-img">
-                      <img src="assets/images/footer/2.jpg" alt="" />
-                    </div>
-                    <div className="post-item">
-                      <div className="post-desc">
-                        <a href="#">High school program starting soon 2021</a>
-                      </div>
-                      <span className="post-date">
-                        <i className="fa fa-calendar-check-o" />
-                        September 14, 2020
-                      </span>
-                    </div>
-                  </div>
+                
+                <div className="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
+                  <h3 className="widget-title">Useful Links</h3>
+                  <ul className="site-map">
+                    <li><Link href="/allcourse"><a href="#">Privacy Policy</a></Link></li>
+                    <li><Link href="/allcourse"><a href="#">Terms & Condition</a></Link></li>
+                    <li><Link href="/allcourse"><a href="#">Redeem Voucher </a></Link></li>
+                    <li><Link href="/allcourse"><a href="#">Certificate Validate</a></Link></li>
+
+                    
+                  </ul>
                 </div>
               </div>
             </div>
@@ -105,12 +66,12 @@ linguists worldwide.</p>
               <div className="row y-middle">
                 <div className="col-lg-4 md-mb-20">
                   <div className="footer-logo md-text-center">
-                    <a href="index.html"><img src="assets/images/logo-yellow.png" alt="" /></a>
+                    <a href="index.html"><img src="assets/images/lingoacademy.png" alt="" /></a>
                   </div>
                 </div>
                 <div className="col-lg-4 md-mb-20">
                   <div className="copyright text-center md-text-left">
-                    <p>© 2020 All Rights Reserved. Developed By <a href="http://rstheme.com/">RSTheme</a></p>
+                    <p>© 2020 All Rights Reserved. Developed By </p>
                   </div>
                 </div>
                 <div className="col-lg-4 text-right md-text-left">
